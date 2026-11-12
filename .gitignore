@@ -1,0 +1,8 @@
+__pycache__/
+.pytest_cache/
+.venv/
+*.pyc
+# keep trained model out of git unless you want it in the repo
+# models/*.joblib
+data/synthetic_sample.csv
+.DS_Store

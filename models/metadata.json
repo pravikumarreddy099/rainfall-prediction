@@ -1,0 +1,112 @@
+{
+  "trained_at": "2026-11-12T12:48:58+00:00",
+  "sklearn_version": "1.9.1",
+  "model": "Logistic Regression",
+  "best_params": {
+    "clf__C": 0.033205591037519584
+  },
+  "cv_roc_auc_tuned": 0.8546165092217723,
+  "test_metrics": {
+    "accuracy": 0.8108108108108109,
+    "balanced_accuracy": 0.8058333333333333,
+    "precision": 0.8913043478260869,
+    "recall": 0.82,
+    "f1": 0.8541666666666666,
+    "roc_auc": 0.9225,
+    "roc_auc_ci95": [
+      0.8557913938897982,
+      0.9722567635749952
+    ],
+    "confusion_matrix": [
+      [
+        19,
+        5
+      ],
+      [
+        9,
+        41
+      ]
+    ],
+    "n_test": 74
+  },
+  "n_rows": 366,
+  "rain_rate": 0.680327868852459,
+  "feature_ranges": {
+    "pressure": {
+      "min": 998.5,
+      "max": 1034.6,
+      "median": 1013.0
+    },
+    "maxtemp": {
+      "min": 7.1,
+      "max": 36.3,
+      "median": 27.75
+    },
+    "temperature": {
+      "min": 4.9,
+      "max": 32.4,
+      "median": 25.45
+    },
+    "mintemp": {
+      "min": 3.1,
+      "max": 30.0,
+      "median": 23.7
+    },
+    "dewpoint": {
+      "min": -0.4,
+      "max": 26.7,
+      "median": 21.95
+    },
+    "humidity": {
+      "min": 36.0,
+      "max": 98.0,
+      "median": 80.5
+    },
+    "cloud": {
+      "min": 0.0,
+      "max": 100.0,
+      "median": 80.0
+    },
+    "sunshine": {
+      "min": 0.0,
+      "max": 12.1,
+      "median": 3.5
+    },
+    "winddirection": {
+      "min": 10.0,
+      "max": 350.0,
+      "median": 70.0
+    },
+    "windspeed": {
+      "min": 4.4,
+      "max": 59.5,
+      "median": 20.5
+    }
+  },
+  "class_medians": {
+    "rain": {
+      "pressure": 1012.7,
+      "maxtemp": 27.6,
+      "temperature": 25.4,
+      "mintemp": 23.7,
+      "dewpoint": 22.3,
+      "humidity": 84.0,
+      "cloud": 84.0,
+      "sunshine": 1.5,
+      "winddirection": 70.0,
+      "windspeed": 21.9
+    },
+    "no_rain": {
+      "pressure": 1013.1,
+      "maxtemp": 29.1,
+      "temperature": 25.5,
+      "mintemp": 23.7,
+      "dewpoint": 20.9,
+      "humidity": 75.0,
+      "cloud": 49.0,
+      "sunshine": 8.8,
+      "winddirection": 70.0,
+      "windspeed": 16.7
+    }
+  }
+}
